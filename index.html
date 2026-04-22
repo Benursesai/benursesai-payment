@@ -184,7 +184,7 @@
                     document.getElementById('success-text').textContent = 'Bienvenue dans ' + selectedFormation.name;
                     document.getElementById('success').classList.add('show');
                     document.getElementById('payment-form').style.display = 'none';
-                    setTimeout(() => location.href = 'https://campus.benursesai.ca', 3000);
+                    setTimeout(() => location.href = 'https://campus.benursesai.ca/login/index.php', 3000);
                 }
             } catch (error) {
                 document.getElementById('error').textContent = 'Erreur: ' + error.message;
